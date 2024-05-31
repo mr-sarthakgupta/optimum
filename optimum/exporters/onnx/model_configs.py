@@ -952,6 +952,8 @@ class CLIPTextWithProjectionOnnxConfig(TextEncoderOnnxConfig):
 
         return common_outputs
 
+class CLIPVisionModelWithProjectionOnnxConfig(CLIPOnnxConfig):
+    pass
 
 class CLIPTextOnnxConfig(CLIPTextWithProjectionOnnxConfig):
     @property
