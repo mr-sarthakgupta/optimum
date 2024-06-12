@@ -952,9 +952,6 @@ class CLIPTextWithProjectionOnnxConfig(TextEncoderOnnxConfig):
 
         return common_outputs
 
-class CLIPVisionModelWithProjectionOnnxConfig(CLIPOnnxConfig):
-    pass
-
 class CLIPTextOnnxConfig(CLIPTextWithProjectionOnnxConfig):
     @property
     def outputs(self) -> Dict[str, Dict[int, str]]:
